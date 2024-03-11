@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Code Box</title>
+</head>
+<body>
+    
+    <div class="code-box">
+        <div class="line-numbers">
+            <span>1</span>
+            <span>2</span>
+            <span>3</span>
+            <span>4</span>
+            <span>5</span>
+            <span>6</span>
+            <span>7</span>
+            <span>8</span>
+            <span>9</span>
+            <span>10</span>
+            <span>11</span>
+            <!-- Add more line numbers as needed -->
+        </div>
+        <div class="code">
+            <pre>
+var names = ["Ghazi", "Ali", "Musa", "Rehman", "Jamal","jasim"];
+var greet = function(names) {
+    for (var i = 0; i &lt names.length; i++) {
+          if (names[i][0].toUpperCase() =="J") {
+                 console.log("Goodbye! " + names[i]);
+        }
+        else {
+                console.log("Hello! " + names[i]);}
+     }
+ }
+ greet(names);
+
+               
+            </pre>
+        </div>
+    </div>
+<script src="script.js"></script>
+</body>
+</html>

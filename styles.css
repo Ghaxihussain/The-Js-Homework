@@ -1,0 +1,39 @@
+body {
+    font-family: 'Courier New', monospace;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+
+
+.code-box {
+    display: flex;
+    border: 1px solid #ccc;
+    overflow: auto;
+    padding-top: 10px ;
+}
+
+.line-numbers {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    background-color: #f7f7f7;
+    border-right: 1px solid #ccc;
+}
+
+.line-numbers span {
+    font-size: 12px;
+    line-height: 20px;
+}
+
+
+
+pre {
+    margin: 0;
+}
+pre{
+    line-height: 20px;
+}
